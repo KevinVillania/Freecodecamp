@@ -1,3 +1,5 @@
+/* Code review and github update */
+
 * {
 	box-sizing: border-box;
 	font-family: 'Raleway', sans-serif;
@@ -65,13 +67,28 @@ body {
 	border: 1px solid hsl(201, 100%, 50%);
 }
 
+#signup-button {
+	background-color: rgba(255, 255, 255, 0.01);
+	border: none;
+	outline: none;
+	color: white;
+	padding: 10px 20px;
+	width: 25%;
+	border-radius: 5px;
+	font-weight: lighter;
+	font-size: 1.3em;
+	margin-top: 30px;
+	font-weight: normal;
+	cursor: pointer;
+}
+
 .login-button {
 	background-color: rgb(4, 192, 4);
 	border: none;
 	outline: none;
 	color: white;
 	padding: 10px 20px;
-	width: 100%;
+	width: 35%;
 	border-radius: 5px;
 	font-weight: lighter;
 	font-size: 1.3em;
@@ -83,4 +100,11 @@ body {
 .login-button:hover {
 	background-color: rgb(27, 190, 27);
 	transform: scale(1.05);
+}
+
+#signup-button:hover {
+	margin-left: 10px;
+	transform: scale(1.05);
+	border: 1px solid hsl(201, 100%, 50%);
+	background-color: rgba(255, 255, 255, 0.21);
 }
